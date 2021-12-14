@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editName"
+        android:inputType="textPersonName"
+        android:hint="Enter name"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTel"
+        android:inputType="phone"
+        android:hint="Enter phone number"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editEmail"
+        android:inputType="textEmailAddress"
+        android:hint="Enter email"></EditText>
+    <Spinner
+        android:id="@+id/category"
+        android:spinnerMode="dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/category_arrays"
+        android:prompt="@string/category_prompt" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInsert"
+        android:text="Add"
+        ></Button>
+</LinearLayout>

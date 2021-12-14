@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhoneBook</string>
+    <string name="category_prompt">Choose a category</string>
+
+    <string-array name="category_arrays">
+        <item>Family</item>
+        <item>Friends</item>
+        <item>Colleagues</item>
+        <item>Other</item>
+    </string-array>
+</resources>
